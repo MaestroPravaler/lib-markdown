@@ -39,3 +39,12 @@ Esta biblioteca acessa um arquivo de texto (markdow), procura dentro dele as url
     npm rum cli
     ```
 
+### Validações das URL's
+
+1. Instalar o "node-fetch": "^2.6.1"
+2. Acessar a lista de sites 
+3. Receber o retorno do status dos sites acessados (200 ou outro qualquer)
+4. Envolver o código assincrono com try/catch.
+
+
+

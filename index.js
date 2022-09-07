@@ -8,7 +8,7 @@ function extraiLinks(texto){
     let temp;
 
     while((temp = regex.exec(texto)) !== null) {
-        arrayResultados.push({[temp[1]]: temp[2]})
+        arrayResultados.push({ [temp[1]]: temp[2]});
     }
     return arrayResultados.length === 0 ? 'Não há links no arquivo' : arrayResultados;
 }
@@ -27,6 +27,8 @@ async function pegaArquivo(caminhoDoArquivo){
         trataErro(erro);
     }
 }
+
+export default pegaArquivo;
 
 // UTILIZANDO Promise()
 // function pegaArquivo(arquivo){
@@ -61,5 +63,3 @@ async function pegaArquivo(caminhoDoArquivo){
 //         console.log(chalk.green(texto));
 //     });
 // }
-
-export default pegaArquivo;
