@@ -29,3 +29,13 @@ Esta biblioteca acessa um arquivo de texto (markdow), procura dentro dele as url
 
 1. Trabalhando com expressões regulares
 2. Extraindo os links do texto
+
+### Organizando como o Usuario utilizará a lib
+
+1. Criando o CLI
+2. Passando o nome/local do arquivo a ser analizado pela linha de comando
+3. Criando scripts para facilitar a digitação. Para rodar o projeto do terminal digite:
+    ```
+    npm rum cli
+    ```
+
