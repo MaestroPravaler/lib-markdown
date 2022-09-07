@@ -46,5 +46,17 @@ Esta biblioteca acessa um arquivo de texto (markdow), procura dentro dele as url
 3. Receber o retorno do status dos sites acessados (200 ou outro qualquer)
 4. Envolver o código assincrono com try/catch.
 
+### Testes Unitários
+
+1. Instalar a lib jest
+2. Criar a pasta test na raiz
+3. No arquivo package.json modificar o script relacionado ao teste para executar o que necessitamos
+4. Criar os arquivos de testes
+5. Criar testes para as funções (Acertos e erros possíveis)
+6. Rodar os testes unitários
+    ```
+    npm run test
+    ```
+
 
 
